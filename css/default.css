@@ -1,0 +1,50 @@
+:root{
+	--bgimg: url(/images/bg/vapor100_1920x1200.png);
+	background-image: var(--bgimg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+body{
+}
+div.container {
+	aspect-ratio: 3 / 4;
+	width: min-content;
+	max-height: 90vh;
+	border: 5pt solid black;
+	border-radius: 40pt;
+	margin-top: 5vh;
+	margin-left: auto;
+	margin-right:auto;
+	background-color: white;
+}
+div.container>a {
+	display:inline-block;
+	margin:10pt;
+	aspect-ratio: initial;
+}
+div.container>a>img {
+	margin: 5pt;
+	height:40pt;
+	filter: 
+		grayscale()
+		brightness(-1000%)
+		opacity(100%) 
+		contrast(100%)
+		drop-shadow(2pt 2pt 0 cyan) 
+		drop-shadow(-2pt -2pt 0 magenta);
+}
+.lefty{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	max-width: 10vw;
+}
+.righty{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	max-width: 10vw;
+}
