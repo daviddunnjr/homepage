@@ -5,18 +5,17 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
-body{
-}
 div.container {
-	aspect-ratio: 3 / 4;
-	width: min-content;
-	max-height: 90vh;
+	overflow-y: scroll;
+	background-color: white;
 	border: 5pt solid black;
-	border-radius: 40pt;
+	max-width: min(6in, 80vw);
+	width: max-content;
+	max-height: 90vh;
 	margin-top: 5vh;
+	border-radius: 40pt;
 	margin-left: auto;
 	margin-right:auto;
-	background-color: white;
 }
 div.container>a {
 	display:inline-block;
@@ -48,3 +47,6 @@ div.container>a>img {
 	right: 0;
 	max-width: 10vw;
 }
+::-webkit-scrollbar {
+	display: none;
+	}
