@@ -1,3 +1,5 @@
-# David's Home Page
+# David's Favorites
 
-This page provides a list of links with themes applied to logos.
+This webpage provides links to my favorite or most-used websites. CSS image filters give site logos a uniform theme.
+
+[Preview the page here.](https://htmlpreview.github.io/?https://github.com/daviddunnjr/homepage/blob/main/index.html)
