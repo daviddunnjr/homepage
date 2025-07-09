@@ -31,6 +31,13 @@ div.container>a>img {
 		contrast(100%)
 		drop-shadow(2pt 2pt 0 cyan) 
 		drop-shadow(-2pt -2pt 0 magenta);
+	-webkit-filter:
+		grayscale()
+		brightness(-1000%)
+		opacity(100%) 
+		contrast(100%)
+		drop-shadow(2pt 2pt 0 cyan) 
+		drop-shadow(-2pt -2pt 0 magenta);
 }
 .lefty{
 	display: block;
